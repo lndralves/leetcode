@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * https://leetcode.com/problems/two-sum/description/
+ * <a href="https://leetcode.com/problems/two-sum/description/">See description</a>
  * */
 public class TwoSum {
 
@@ -24,11 +24,5 @@ public class TwoSum {
         }
 
         return null;
-    }
-
-    public static void main(String[] args) {
-        TwoSum ts = new TwoSum();
-        int[] result = ts.twoSum(new int[]{2, 7, 11, 15}, 9);
-        System.out.println(Arrays.toString(result));
     }
 }
